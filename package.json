@@ -1,4 +1,6 @@
 {
+  "homepage": "https://sumi0820.github.io/Book-Search/",
+
   "name": "booksearch",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,22 +36,4 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
-}
-{
-  // ...
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    // 追加
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  // ...
-  "devDependencies": {
-    "gh-pages": "^2.1.1"
-  },
-  // 追加
-  "homepage": "https://sumi0820.github.io/Book-Search/"
 }
