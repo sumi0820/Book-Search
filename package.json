@@ -28,5 +28,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
+}
+{
+  // ...
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    // 追加
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  // ...
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  // 追加
+  "homepage": "https://sumi0820.github.io/Book-Search/"
 }
