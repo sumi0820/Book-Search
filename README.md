@@ -1,3 +1,16 @@
+## Book Search
+Built with React
+
+- You can search books by Author or Title.
+- You can also click in for the detail of a book.
+
+[See Demo](http://localhost:3000/)
+
+
+
+
+============================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
