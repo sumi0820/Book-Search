@@ -4,7 +4,7 @@ Built with React
 - You can search books by Author or Title.
 - You can also click in for the detail of a book.
 
-[See Demo](http://localhost:3000/)
+[See Demo](https://sumi0820.github.io/Book-Search/)
 
 
 
